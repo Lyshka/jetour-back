@@ -38,7 +38,7 @@ app.use(
 
 app.use(express.static(__dirname + "/public"));
 
-app.listen(process.env.PORT || 80, (err) => {
+app.listen(process.env.PORT || 5000, (err) => {
   if (err) {
     console.error(err);
   } else {
